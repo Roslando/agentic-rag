@@ -1,0 +1,34 @@
+# ── Secrets ────────────────────────────────────────────────────────────────────
+.env
+
+# ── Vectorised / indexed data (not legal to redistribute) ──────────────────────
+data/qdrant_db/
+data/parent_store/
+data/markdown_docs/
+data/index_stats.json
+data/stripe_docs_index.md
+
+# ── Source documents (may contain proprietary content) ─────────────────────────
+docs/
+
+# ── Python artefacts ───────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+*.egg-info/
+dist/
+build/
+
+# ── IDE / OS ───────────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.DS_Store
+Thumbs.db
+
+# ── Models (downloaded at runtime) ─────────────────────────────────────────────
+models/
+*.bin
+*.safetensors
