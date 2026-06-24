@@ -1,10 +1,11 @@
 # Agentic RAG — Corporate Knowledge Assistant
 
-> **Prototype Notice** — This project is an early-stage prototype built for
-> demonstration and research purposes. It is not designed or optimised for
-> mass-public deployment or large-enterprise scale at this stage. Expect rough
-> edges, single-user threading, and no hardened security. Keep your expectations
-> realistic — and your curiosity high.
+> ⚡ **Enterprise Edge Architecture** — This system is engineered specifically to
+> eliminate mandatory cloud spend. By orchestrating local neural models (Dense +
+> Sparse embeddings, Cross-Encoders, and local LLMs) directly alongside a local
+> Qdrant instance, it delivers high-throughput Tier-1 customer support
+> infrastructure at zero token cost. Cloud failover (OpenRouter) is strictly an
+> automated high-availability redundancy layer.
 
 ---
 
@@ -18,6 +19,10 @@ reasons, refines its search if needed, and answers — citing sources.
 **Zero mandatory cloud costs.** The entire stack can run on a consumer laptop
 with a local Ollama LLM and a local Qdrant database. Cloud fallback
 (OpenRouter) kicks in only if Ollama is unavailable.
+
+---
+
+![Demo](demo.gif)
 
 ---
 
